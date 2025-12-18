@@ -7,102 +7,62 @@
 <title>SAI CLINIC</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+<!-- Favicon -->
+<link rel="icon" href="${pageContext.request.contextPath}/img/favicol.ico" type="image/x-icon">
 
-<link rel="icon" href="img/favicol.ico" type="image/x-icon">
 <!-- Bootstrap CSS -->
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-	rel="stylesheet">
-<!-- Bootstrap JS (needed for sliding) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Fonts and Icons -->
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<!-- Flatpickr CSS -->
-<link rel="stylesheet"
-	href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-<link
-	href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap"
-	rel="stylesheet">
-<link
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-	rel="stylesheet">
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-	rel="stylesheet">
+<!-- Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
+<!-- Flatpickr -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-	rel="stylesheet">
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-	rel="stylesheet">
+<!-- Owl Carousel (Pick ONE version) -->
+<link href="${pageContext.request.contextPath}/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-<!-- Bootstrap JS -->
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom CSS -->
+<link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/More.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/New.css" rel="stylesheet">
+    <!-- Favicon -->
+<link rel="icon" href="${pageContext.request.contextPath}/img/favicol.ico" type="image/x-icon">
 
-<!-- Libraries Stylesheet -->
-<link
-	href="${pageContext.request.contextPath}/lib/owlcarousel/assets/owl.carousel.min.css"
-	rel="stylesheet">
-<link
-	href="${pageContext.request.contextPath}/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
-	rel="stylesheet" />
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom Bootstrap and Template Style -->
-<!-- Owl Carousel CSS -->
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/css/style.css">
+<!-- Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/css/More.css">
+<!-- Flatpickr -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/css/New.css">
+<!-- Owl Carousel (Pick ONE version) -->
+<link href="${pageContext.request.contextPath}/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/More.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/New.css" rel="stylesheet">
+
 
 </head>
 
 <body>
-	<!-- Navbar Start -->
-	<div class="container-fluid sticky-top bg-white shadow-sm">
-		<div class="container">
-			<nav
-				class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-				<a href="index.html" class="navbar-brand">
-					<h1 class="m-0 text-uppercase text-primary">
-						<img src="img/logo.png" style="height: 50px; width: 60px;" /> SAI
-						CLINIC
-					</h1>
-				</a>
-				<button class="navbar-toggler" type="button"
-					data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<div class="navbar-nav ms-auto py-0">
-						<a href="${pageContext.request.contextPath}/"
-							class="nav-item nav-link active">Home</a> <a
-							href="${pageContext.request.contextPath}/about"
-							class="nav-item nav-link">About</a> <a
-							href="${pageContext.request.contextPath}/service"
-							class="nav-item nav-link">Service</a> <a
-							href="${pageContext.request.contextPath}/contact"
-							class="nav-item nav-link">Contact</a> <a
-							href="${pageContext.request.contextPath}/admin-login"
-							class="nav-item nav-link">Dr Login</a>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<!-- Navbar End -->
+<%@ include file="navbar.jsp" %>
 
 
 	<!-- Hero Start -->
@@ -206,7 +166,7 @@
 				<button onclick="sendMessage()"
 					style="margin-left: 10px; background-color: #13C5DD; color: white; border: none; border-radius: 20px; padding: 8px 15px;">Send</button>
 			</div>
-		</div>
+ 		</div>
 
 		<!-- Chatbot toggle button -->
 		<div class="chatbox__button"
@@ -225,8 +185,7 @@
 	<div class="container-fluid py-5">
 		<div class="container">
 			<div class="text-center mx-auto mb-5" style="max-width: 500px;">
-				<h5
-					class="d-inline-block text-primary text-uppercase border-bottom border-5">Services</h5>
+				
 				<h1 class="display-4">Our Special Services</h1>
 			</div>
 			<div class="row g-5">
@@ -245,7 +204,7 @@
 							,Asthma,Pharyngitis,Broncehitis,Dyspepsia</p>
 						<a class="btn btn-lg btn-primary rounded-pill" href=""> <i
 							class="bi bi-arrow-right"></i>
-						</a>
+ 						</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
@@ -285,299 +244,41 @@
 	</div>
 	<!-- Services End -->
 
-
-	<!-- Appointment Start -->
-	<div class="container-fluid bg-primary my-5 py-5">
-		<div class="container py-5">
-			<div class="row gx-5">
-				<div class="col-lg-6 mb-5 mb-lg-0">
-					<div class="mb-4">
-						<h5
-							class="d-inline-block text-white text-uppercase border-bottom border-5">Appointment</h5>
-						<h1 class="display-4 text-white">Make An Appointment For Your
-							Family</h1>
-					</div>
-					<p class="text-white mb-2">8:00 AM - 11:00 AM</p>
-					<p class="text-white mb-4">2:00 PM - 08:00 PM</p>
-				</div>
-				<div class="col-lg-6">
-					<div class="bg-white text-center rounded p-5">
-						<h1 class="mb-4">Book An Appointment</h1>
-						<form action="addAppointment" method="post">
-							<input type="hidden" name="access_key"
-								value="0d0a3247-4eed-4e47-85c8-9887044303fc">
-							<div class="row g-3">
-								<div class="col-12 col-sm-6">
-									<input name="name" class="form-control bg-light border-0"
-										placeholder="Your Name" type="text" style="height: 55px;">
-								</div>
-								<div class="col-12 col-sm-6">
-									<input name="email" class="form-control bg-light border-0"
-										placeholder="Your Email" type="email" style="height: 55px;">
-								</div>
-								<div class="col-12 col-sm-6">
-									<input type="date" name="date"
-										class="form-control bg-white border-0" required>
-
-								</div>
-								<div class="col-12 col-sm-6">
-									<input type="text" id="appointmentTime" name="time"
-										class="form-control" placeholder="Select Time" required />
-
-								</div>
-								<div class="col-12">
-									<button class="btn btn-primary w-100 py-3" type="submit">Make
-										An Appointment</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Appointment End -->
-
-
-	<section class="gallery-section py-5"
-		style="background-color: #00CFE8; border-top-left-radius: 80px; border-top-right-radius: 80px;">
-		<div class="container text-center">
-			<h2 class="fw-bold text-white mb-4">Gallery</h2>
-			<div id="galleryCarousel" class="carousel slide"
-				data-bs-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="${pageContext.request.contextPath}/img/logo1.png"
-							class="d-block mx-auto rounded" style="height: 300px;"
-							alt="Slide 1">
-					</div>
-					<div class="carousel-item">
-						<img src="${pageContext.request.contextPath}/img/img2.png"
-							class="d-block mx-auto rounded" style="height: 300px;"
-							alt="Slide 2">
-					</div>
-					<div class="carousel-item">
-						<img src="${pageContext.request.contextPath}/img/img1.png"
-							class="d-block mx-auto rounded" style="height: 300px;"
-							alt="Slide 3">
-					</div>
-					<div class="carousel-item">
-						<img src="${pageContext.request.contextPath}/img/img4.png"
-							class="d-block mx-auto rounded" style="height: 300px;"
-							alt="Slide 3">
-					</div>
-				</div>
-
-				<!-- Arrows -->
-				<button class="carousel-control-prev" type="button"
-					data-bs-target="#galleryCarousel" data-bs-slide="prev">
-					<span class="carousel-control-prev-icon bg-dark rounded-circle p-3"
-						aria-hidden="true"></span>
-				</button>
-				<button class="carousel-control-next" type="button"
-					data-bs-target="#galleryCarousel" data-bs-slide="next">
-					<span class="carousel-control-next-icon bg-dark rounded-circle p-3"
-						aria-hidden="true"></span>
-				</button>
-			</div>
-		</div>
-	</section>
-
-
+<%@ include file="appointment.jsp" %>
 
 
 	<!-- Team Start -->
-	<div class="container-fluid py-5">
-		<div class="container">
-			<div class="text-center mx-auto mb-5" style="max-width: 500px;">
-				<h5
-					class="d-inline-block text-primary text-uppercase border-bottom border-5">Our
-					Doctors</h5>
-				<h1 class="display-4">Our Doctor Panel</h1>
-			</div>
+<div class="container-fluid team-section">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 team-title" style="max-width: 400px;">
+            <h1>Our Doctor Panel</h1>
+        </div>
 
-			<div class="" style="background-color: #13C5DD;">
-				<div class="team-item">
-					<div class="row g-0 bg-light rounded overflow-hidden"
-						style="margin-left: 20%; margin-right: 20%;">
-						<div class="col-12 col-sm-5 h-100">
-							<img class="img-fluid h-100"
-								src="https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=1200:*"
-								style="object-fit: cover;">
-						</div>
-						<div class="col-12 col-sm-7 h-100  flex-column">
-							<div class="mt-auto p-4">
-								<h3>Sachin Sharma</h3>
-								<h6 class="fw-normal fst-italic text-primary mb-4">Specialist</h6>
-								<p class="m-0">Practices - Homeopathic & Allopathic Doctor
-									Sachin Sharma, B.H.M.S, C.D.V, C.C.M.P President And Chief
-									Executive Officer Of Sai Clinic Dr. Sharma Is A Leading Voice
-									In The Movement Of Health Care From A Linear Homeopathic &
-									Allopathic Platform-Based Model.</p>
-							</div>
+        <div class="team-item">
+            <div class="row g-0 bg-light rounded overflow-hidden" style="margin-left: 20%; margin-right: 20%;">
+                <div class="col-12 col-sm-5 h-100">
+                    <img class="img-fluid h-100" src="https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=1200:*" alt="Doctor">
+                </div>
+                <div class="col-12 col-sm-7 h-100 flex-column">
+                    <div class="mt-auto p-4">
+                        <h3>Sachin Sharma</h3>
+                        <h6 class="fw-normal fst-italic mb-4">Specialist</h6>
+                        <p class="m-0">Practices - Homeopathic & Allopathic Doctor Sachin Sharma, B.H.M.S, C.D.V, C.C.M.P President And Chief Executive Officer Of Sai Clinic Dr. Sharma Is A Leading Voice In The Movement Of Health Care From A Linear Homeopathic & Allopathic Platform-Based Model.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-						</div>
-					</div>
-				</div>
+    </div>
+</div>
+<!-- Team End -->
 
-
-
-			</div>
-		</div>
-	</div>
 
 	<!-- Team End -->
 
 
+<%@ include file="footer.jsp" %>
 
-
-
-	<!-- Testimonial Start -->
-	<!-- Testimonial Start -->
-	<div class="container-fluid py-5">
-		<div class="container">
-			<div class="text-center mx-auto mb-5" style="max-width: 500px;">
-				<h5
-					class="d-inline-block text-primary text-uppercase border-bottom border-5">Testimonial</h5>
-				<h1 class="display-4">Patients Say About Our Services</h1>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-8">
-					<div class="owl-carousel testimonial-carousel">
-						<div class="testimonial-item text-center">
-							<div class="position-relative mb-5">
-								<img class="img-fluid rounded-circle mx-auto d-block"
-									src="${pageContext.request.contextPath}/img/img5.png" alt="">
-
-								<div
-									class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
-									style="width: 60px; height: 60px;">
-									<i class="fa fa-quote-left fa-2x text-primary"></i>
-								</div>
-							</div>
-							<p class="fs-4 fw-normal">The services that I receive from
-								(Sai Clinic) is excellent. Dr. (Dange) and the staff are
-								friendly and ensure that I am properly informed about my health
-								and care. I would have no qualms in recommending them to
-								friendly and friends.</p>
-							<hr class="w-25 mx-auto">
-							<h3>Sunita Pawar</h3>
-						</div>
-						<div class="testimonial-item text-center">
-							<div class="position-relative mb-5">
-								<img class="img-fluid rounded-circle mx-auto d-block"
-									src="${pageContext.request.contextPath}/img/img5.png" alt="">
-
-								<div
-									class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
-									style="width: 60px; height: 60px;">
-									<i class="fa fa-quote-left fa-2x text-primary"></i>
-								</div>
-							</div>
-							<p class="fs-4 fw-normal">Great experience as a first timer.
-								I barely waited to be helped when I checked in. The staff and
-								Dr. (Dange) were all very friendly and helpful. I especially
-								loved how Dr. (Dange) really took his time to explain my
-								conditions with me as well as my treatment options. I had a
-								great visit and the doctor’s demeanor has really put me at ease
-								.</p>
-							<hr class="w-25 mx-auto">
-							<h3>Prashant Tathe</h3>
-						</div>
-						<div class="testimonial-item text-center">
-							<div class="position-relative mb-5">
-								<img class="img-fluid rounded-circle mx-auto d-block"
-									src="${pageContext.request.contextPath}/img/img5.png" alt="">
-								<div
-									class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
-									style="width: 60px; height: 60px;">
-									<i class="fa fa-quote-left fa-2x text-primary"></i>
-								</div>
-							</div>
-							<p class="fs-4 fw-normal">DR. is very professional. Takes
-								time to explain things, resolve problems. HIGHLY Grateful for
-								his experience & wide range of knowledge.</p>
-							<hr class="w-25 mx-auto">
-							<h3>Shivam Kadam</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Testimonial End -->
-	<!-- Footer Start -->
-	<div class="container-fluid bg-dark text-light mt-5 py-5">
-		<div class="container py-5">
-			<div class="row g-5">
-				<div class="col-lg-3 col-md-6">
-					<h4
-						class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Get
-						In Touch</h4>
-					<p class="mb-4">It is health that is real wealth and not pieces
-						of gold and silver.</p>
-					<p class="mb-2">
-						<i class="fa fa-map-marker-alt text-primary me-3"></i>
-						Sangola, tal.Sangola, Dist.Solapur
-					</p>
-					<p class="mb-2">
-						<i class="fa fa-envelope text-primary me-3"></i>Sharma@gmail.com
-					</p>
-					<p class="mb-0">
-						<i class="fa fa-phone-alt text-primary me-3"></i>+9421067202
-					</p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h4
-						class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick
-						Links</h4>
-					<div class="d-flex flex-column justify-content-start">
-						<a class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Home</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>About Us</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Our Services</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Meet The Team</a> <a
-							class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contact
-							Us</a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h4
-						class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular
-						Links</h4>
-					<div class="d-flex flex-column justify-content-start">
-						<a class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Home</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>About Us</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Our Services</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Meet The Team</a> <a
-							class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contact
-							Us</a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3
-						class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Developed
-						By</h3>
-					<div class="developers">
-						<h6 style="color: white;">Sachin More</h6>
-						<h6 style="color: white;">Sumit Shinde</h6>
-						<h6 style="color: white;">Bhavesh Chaugule</h6>
-						<h6 style="color: white;">Hanmant Doke</h6>
-					</div>
-
-
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Footer End -->
 
 	<!-- Back to Top -->
 	<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i

@@ -56,39 +56,8 @@
 </head>
 
 <body>
-   <!-- Navbar Start -->
-	<div class="container-fluid sticky-top bg-white shadow-sm">
-		<div class="container">
-			<nav
-				class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-				<a href="index.html" class="navbar-brand">
-					<h1 class="m-0 text-uppercase text-primary">
-						<img src="img/logo.png" style="height: 50px; width: 60px;" /> SAI
-						CLINIC
-					</h1>
-				</a>
-				<button class="navbar-toggler" type="button"
-					data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<div class="navbar-nav ms-auto py-0">
-						<a href="${pageContext.request.contextPath}/"
-							class="nav-item nav-link ">Home</a> <a
-							href="${pageContext.request.contextPath}/about"
-							class="nav-item nav-link ">About</a> <a
-							href="${pageContext.request.contextPath}/service"
-							class="nav-item nav-link  ">Service</a> <a
-							href="${pageContext.request.contextPath}/contact"
-							class="nav-item nav-link active">Contact</a> <a
-							href="${pageContext.request.contextPath}/admin-login"
-							class="nav-item nav-link">Dr Login</a>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<!-- Navbar End -->
+   <%@ include file="navbar.jsp" %>
+   
 	<!-- Chatbox HTML -->
 	<div class="chatbox"
 		style="position: fixed; bottom: 10px; right: 20px; z-index: 1000;">
@@ -171,76 +140,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center position-relative" style="margin-top: -200px; z-index: 1;">
-                <div class="col-lg-8">
-                    <div class="bg-white rounded p-5 m-5 mb-0">
-                        <form action="https://formspree.io/f/xjvdloeo" method="POST">
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <label>Patient Name</label>
-                                    <input name="patientName" type="text" class="form-control" placeholder="Name" required>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <label>Contact</label>
-                                    <input name="contactNum" type="tel" class="form-control" placeholder="123" required>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <label>Date</label>
-                                    <input name="aptDate" type="date" class="form-control">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <label>Time</label>
-                                    <input name="aptTime" type="time" class="form-control">
-                                </div>
-                                <div class="col-12">
-                                    <textarea name="message" class="form-control bg-light border-0" rows="5" placeholder="Message"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+           </div>
     <!-- Contact End -->
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light mt-5 py-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Get In Touch</h4>
-                    <p class="mb-4">It is health that is real wealth and not pieces of gold and silver.</p>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>ftc college Sangola, tal.Sangola, Dist.Solapur</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>Sharma@gmail.com</p>
-                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+9421067202</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick Links</h4>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="index.jsp"><i class="fa fa-angle-right me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="about.jsp"><i class="fa fa-angle-right me-2"></i>About Us</a>
-                        <a class="text-light mb-2" href="service.jsp"><i class="fa fa-angle-right me-2"></i>Our Services</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
-                        <a class="text-light" href="contact.jsp"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Developed By</h3>
-                    <div class="developers">
-                        <h6 style="color: white;">Sachin More</h6>
-                        <h6 style="color: white;">Sumit Shinde</h6>
-                        <h6 style="color: white;">Bhavesh Chaugule</h6>
-                        <h6 style="color: white;">Hanmant Doke</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
 <!-- Back to Top -->
 	<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i
 		class="bi bi-arrow-up"></i></a>

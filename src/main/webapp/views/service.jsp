@@ -64,39 +64,8 @@
 
 <body>
 
- <!-- Navbar Start -->
-	<div class="container-fluid sticky-top bg-white shadow-sm">
-		<div class="container">
-			<nav
-				class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-				<a href="index.html" class="navbar-brand">
-					<h1 class="m-0 text-uppercase text-primary">
-						<img src="img/logo.png" style="height: 50px; width: 60px;" /> SAI
-						CLINIC
-					</h1>
-				</a>
-				<button class="navbar-toggler" type="button"
-					data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<div class="navbar-nav ms-auto py-0">
-						<a href="${pageContext.request.contextPath}/"
-							class="nav-item nav-link ">Home</a> <a
-							href="${pageContext.request.contextPath}/about"
-							class="nav-item nav-link ">About</a> <a
-							href="${pageContext.request.contextPath}/service"
-							class="nav-item nav-link active ">Service</a> <a
-							href="${pageContext.request.contextPath}/contact"
-							class="nav-item nav-link">Contact</a> <a
-							href="${pageContext.request.contextPath}/admin-login"
-							class="nav-item nav-link">Dr Login</a>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<!-- Navbar End -->
+     <%@ include file="navbar.jsp" %>
+         <!-- Chatbox UI -->
 	<div class="chatbox"
 		style="position: fixed; bottom: 10px; right: 20px; z-index: 1000;">
 		<div class="chatbox__support">
@@ -215,57 +184,7 @@
 	</div>
 	<!-- Services End -->
 
-	<!-- Appointment Start -->
-	<div class="container-fluid bg-primary my-5 py-5">
-		<div class="container py-5">
-			<div class="row gx-5">
-				<div class="col-lg-6 mb-5 mb-lg-0">
-					<div class="mb-4">
-						<h5
-							class="d-inline-block text-white text-uppercase border-bottom border-5">Appointment</h5>
-						<h1 class="display-4 text-white">Make An Appointment For Your
-							Family</h1>
-					</div>
-					<p class="text-white mb-2">8:00 AM - 11:00 AM</p>
-					<p class="text-white mb-4">2:00 PM - 08:00 PM</p>
-				</div>
-				<div class="col-lg-6">
-					<div class="bg-white text-center rounded p-5">
-						<h1 class="mb-4">Book An Appointment</h1>
-						<form action="addAppointment" method="post">
-							<input type="hidden" name="access_key"
-								value="0d0a3247-4eed-4e47-85c8-9887044303fc">
-							<div class="row g-3">
-								<div class="col-12 col-sm-6">
-									<input name="name" class="form-control bg-light border-0"
-										placeholder="Your Name" type="text" style="height: 55px;">
-								</div>
-								<div class="col-12 col-sm-6">
-									<input name="email" class="form-control bg-light border-0"
-										placeholder="Your Email" type="email" style="height: 55px;">
-								</div>
-								<div class="col-12 col-sm-6">
-									<input type="date" name="date"
-										class="form-control bg-white border-0" required>
-
-								</div>
-								<div class="col-12 col-sm-6">
-									<input type="text" id="appointmentTime" name="time"
-										class="form-control" placeholder="Select Time" required />
-
-								</div>
-								<div class="col-12">
-									<button class="btn btn-primary w-100 py-3" type="submit">Make
-										An Appointment</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Appointment End -->
+	
 
 	<!-- Team Start -->
 	<div class="container-fluid py-5">
@@ -309,8 +228,7 @@
 
 	<!-- Team End -->
 
-
-
+<%@ include file="appointment.jsp" %>
 
 
 	<!-- Testimonial Start -->
@@ -394,78 +312,8 @@
 
 
 
-	<!-- Footer Start -->
-	<div class="container-fluid bg-dark text-light mt-5 py-5">
-		<div class="container py-5">
-			<div class="row g-5">
-				<div class="col-lg-3 col-md-6">
-					<h4
-						class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Get
-						In Touch</h4>
-					<p class="mb-4">It is health that is real wealth and not pieces
-						of gold and silver.</p>
-					<p class="mb-2">
-						<i class="fa fa-map-marker-alt text-primary me-3"></i>ftc college
-						Sangola, tal.Sangola, Dist.Solapur
-					</p>
-					<p class="mb-2">
-						<i class="fa fa-envelope text-primary me-3"></i>Sharma@gmail.com
-					</p>
-					<p class="mb-0">
-						<i class="fa fa-phone-alt text-primary me-3"></i>+9421067202
-					</p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h4
-						class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick
-						Links</h4>
-					<div class="d-flex flex-column justify-content-start">
-						<a class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Home</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>About Us</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Our Services</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Meet The Team</a> <a
-							class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contact
-							Us</a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h4
-						class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular
-						Links</h4>
-					<div class="d-flex flex-column justify-content-start">
-						<a class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Home</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>About Us</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Our Services</a> <a
-							class="text-light mb-2" href="#"><i
-							class="fa fa-angle-right me-2"></i>Meet The Team</a> <a
-							class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contact
-							Us</a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3
-						class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Developed
-						By</h3>
-					<div class="developers">
-						<h6 style="color: white;">Sachin More</h6>
-						<h6 style="color: white;">Sumit Shinde</h6>
-						<h6 style="color: white;">Bhavesh Chaugule</h6>
-						<h6 style="color: white;">Hanmant Doke</h6>
-					</div>
+<%@ include file="footer.jsp" %>
 
-
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Footer End -->
 
 
 	<!-- Back to Top -->

@@ -16,7 +16,7 @@
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<div class="navbar-nav ms-auto py-0">
 						<a href="${pageContext.request.contextPath}/"
-							class="nav-item nav-link active">Home</a> <a
+							class="nav-item nav-link">Home</a> <a
 							href="${pageContext.request.contextPath}/about"
 							class="nav-item nav-link">About</a> <a
 							href="${pageContext.request.contextPath}/service"
