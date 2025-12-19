@@ -1,4 +1,5 @@
 <!-- Navbar Start -->
+ <div class="animated-background"></div>
 	<div class="container-fluid sticky-top bg-white shadow-sm">
 		<div class="container">
 			<nav
